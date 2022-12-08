@@ -1,7 +1,0 @@
-baseURL = 'https://azadder.com/'
-languageCode = 'en-us'
-title = 'azadder'
-theme = 'beautifulhugo'
-
-[Params]
-selfHosted = true
