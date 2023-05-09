@@ -1,0 +1,70 @@
+:root {
+    --light-bg-color: #ffffff;
+    --light-footer-bg-color: #f9f9f9;
+    --light-text-color: #000000;
+    --light-border: #cdcdcd;
+}
+
+
+html {
+    background-color: var(--light-footer-bg-color);
+    color: var(--light-text-color);
+    font-family: 'source_sans_proregular', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'source_serif_proregular', serif;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1.2rem;
+}
+
+.title {
+    background-color: var(--light-bg-color);
+    padding: 0.5rem;
+}
+
+.hero {
+    background-color: var(--light-bg-color);
+    font-size: 4rem;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--light-footer-bg-color);
+    border-bottom: 1px solid var(--light-border);
+    border-top: 1px solid var(--light-border);
+    padding: 1rem;
+}
+
+nav > a {
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: .2rem;
+    color: var(--light-text-color);
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    border: 1px solid var(--light-border);
+}
+
+footer  {
+    background-color: var(--light-footer-bg-color);
+    border-top: 1px solid var(--light-border);
+    padding: 2rem 0rem; 
+    text-align: center;
+}

@@ -1,1 +1,0 @@
-# azadder.com
